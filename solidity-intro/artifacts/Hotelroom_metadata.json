@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.6.1+commit.e6f7d5a4"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-intro/six.sol": "Hotelroom"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-intro/six.sol": {
+			"keccak256": "0x1c46fcb6d5c0336b29c278a5ad6df234b2557df0da22177bcd4ed63c09e74750",
+			"urls": [
+				"bzz-raw://dd0b182b6a815bdb9b99257c345f6ea02d983d45aaf2453fd354a832de3fa64c",
+				"dweb:/ipfs/QmNpTZTiyCxCszcav7td9uQLTpsCie6xyajqjWEJKQ2RcM"
+			]
+		}
+	},
+	"version": 1
+}
